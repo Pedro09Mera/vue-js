@@ -6,6 +6,7 @@
         <p>Email: {{ email }}</p>
         <p>Telefono: {{ telefono }}</p>
     </div>
+    
 </template>
 
 
@@ -18,7 +19,7 @@ export default{
         edad: Number,
         email: String,
         telefono: String
-    }
+    },
 }
 </script>
 
